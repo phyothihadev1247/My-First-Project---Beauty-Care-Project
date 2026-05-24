@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: Georgia, serif, Arial, sans-serif;
+}
+
+#hero {
+  width: 100%;
+  overflow: hidden;
+}
+
+#hero h2 {
+  background: linear-gradient(rgb(61, 192, 162), rgb(124, 50, 199), rgb(182, 18, 207));
+  background-clip: text;
+  color: transparent;
+}
+
+.section-2 {
+  padding: 10px 0;
+}
+
+.card img {
+  object-fit: cover;
+}
+
+.card-img-top {
+  height: 250px;
+  overflow: hidden;
+  transform: scale(1);
+}
+
+.card-img-top:hover img {
+  overflow: hidden;
+  transform: scale(1.1);
+  transition: 0.4s ease-in;
+}
+
+@media screen and (max-width: 600px) {}
